@@ -6,11 +6,10 @@ fs.readFile('input.txt', 'utf8', function (err,data) {
     return console.log(err);
   }
   
-  const eachline = data.trim().split("\n");
-  for(let i = 0; i < eachline.length; i++) {
+  const inputString = data.trim().split("\n");
+  for(let i = 0; i < inputString.length; i++) {
 
-    console.log('eachline[i] --  ', i, eachline[i]);
-    let pairSplit = eachline[i].split(",");
+    let pairSplit = inputString[i].split(",");
     let leftStart = parseInt(pairSplit[0].split("-")[0])
     let leftEnd = parseInt(pairSplit[0].split("-")[1])
     let rightStart = parseInt(pairSplit[1].split("-")[0])
@@ -18,6 +17,7 @@ fs.readFile('input.txt', 'utf8', function (err,data) {
 
     if((rightStart >= leftStart && rightEnd <= leftEnd) || (leftStart >= rightStart && leftEnd <= rightEnd)) {
         counter = counter+=1;
+        console.log('counter --- ', counter);
     }
   }
 
