@@ -70,6 +70,7 @@ fs.readFile("input.txt", "utf8", function (err, data) {
     let expression = ".{1," + inputString[i].length / 2 + "}";
     const regex = new RegExp(expression, "g");
 
+    // split string equally
     const allParts = inputString[i].match(regex);
     const secondPart = allParts[1].split("");
 
