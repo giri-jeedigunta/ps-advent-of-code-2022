@@ -10,7 +10,7 @@ fs.readFile("input.txt", "utf8", function (err, data) {
   const inputString = data.trim().split("");
   console.log(inputString.length);
   loop1: for (let i = 0; i < inputString.length; i++) {
-    let jlen = i + 4;
+    let jlen = i + 14;
     stack = [];
     for (let j = i; j < jlen; j++) {
       if (stack.indexOf(inputString[j]) === -1) {
