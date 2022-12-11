@@ -1,7 +1,7 @@
-Advent of Code[About][Events][Shop][Settings][Log Out]giri-jeedigunta 6*
-      /^2022$/[Calendar][AoC++][Sponsors][Leaderboard][Stats]
+Advent of Code[About][Events][Shop][Settings][Log Out]giri-jeedigunta 7*
+  {:year 2022}[Calendar][AoC++][Sponsors][Leaderboard][Stats]
 Our sponsors help make Advent of Code possible:
-Solita - eJwdyjEOgzAMBdCdU /ytG9m7VBVTZk5g4d AYQhzhP/X0lfrml/k IdCeq3Ao6tG yuBZ+vjRm5B4soDre O1ZtRIF1xyVlg15CN YBWiSTBeUyVHPFOKf 513S29flukHErgjLg ==
+Shopify - Check out our engineering blog and learn how Yule be able to solve commerce problems at scale by joining Shopify. Happy Holidays!
 --- Day 5: Supply Stacks ---
 The expedition can depart as soon as the final supplies have been unloaded from the ships. Supplies are stored in stacks of marked crates, but because the needed supplies are buried under many other crates, the crates need to be rearranged.
 
@@ -55,8 +55,6 @@ After the rearrangement procedure completes, what crate ends up on top of each s
 
 Your puzzle answer was RFFFWBPNS.
 
-The first half of this puzzle is complete! It provides one gold star: *
-
 --- Part Two ---
 As you watch the crane operator expertly rearrange the crates, you notice the process isn't following your prediction.
 
@@ -101,9 +99,12 @@ In this example, the CrateMover 9001 has put the crates in a totally different o
 
 Before the rearrangement process finishes, update your simulation so that the Elves know where they should stand to be ready to unload the final supplies. After the rearrangement procedure completes, what crate ends up on top of each stack?
 
-Answer: 
- 
+Your puzzle answer was CQQBBJFCS.
 
-Although it hasn't changed, you can still get your puzzle input.
+Both parts of this puzzle are complete! They provide two gold stars: **
+
+At this point, you should return to your Advent calendar and try another puzzle.
+
+If you still want to see it, you can get your puzzle input.
 
 You can also [Share] this puzzle.

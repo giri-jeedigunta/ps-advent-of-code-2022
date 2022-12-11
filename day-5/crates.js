@@ -21,6 +21,7 @@
 
 
 //  let stacks = [['Z', 'N'], ['M', 'C', 'D'], ['P']];
+// Need to figure out a better way to do the below ... 
  let stacks = [
     ['H','T','Z','D'],
     ['Q','R','W','T','G','C','S'],
