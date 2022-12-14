@@ -1,5 +1,6 @@
 fs = require('fs')
 let counter = 0;
+let counter1 = 0;
 
 fs.readFile('input.txt', 'utf8', function (err,data) {
   if (err) {
@@ -17,8 +18,15 @@ fs.readFile('input.txt', 'utf8', function (err,data) {
 
     if((rightStart >= leftStart && rightEnd <= leftEnd) || (leftStart >= rightStart && leftEnd <= rightEnd)) {
         counter = counter+=1;
-        console.log('counter --- ', counter);
     }
+
+    if((leftEnd >= rightStart && leftEnd <= rightEnd) || (rightEnd >= leftStart && rightEnd <= leftEnd)) {
+      counter1 = counter1+=1;
+      
+  }    
   }
+
+  console.log('counter --- ', counter);
+  console.log('counter1--- --- ', counter1);
 
 });
